@@ -1,0 +1,80 @@
+section .info {
+    display: flex;
+    flex-direction: column;
+}
+
+section .info .text {
+    text-align: center;
+    margin: auto 20px;
+}
+section .info .text h1 {
+    font-size: 33px;
+    width: 108%;
+}
+
+section .info .text p {
+    width: 135%;
+    transform: translate(-40px, 10px);
+    text-align: center;
+}
+
+section .info .rate .rateOne {
+    left: 0%;
+    transform: translate(-25px, 25px);
+}
+
+section .info .rate .rateTwo {
+    left: 0%;
+    transform: translate(-25px, 110px);
+}
+
+section .info .rate .rateTwo p {
+    margin-left: 13px;
+    transform: translateX(16px);
+}
+
+section .info .rate .rateThree {
+    left: 0%;
+    transform: translate(-25px, 195px);
+}
+
+section .review {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 56%;
+    transform: translateX(-10px);
+}
+
+section .review .reviewOne {
+    width: 100%;
+    margin-right: 30px;
+    transform: translateX(-13px);
+}
+
+section .review .reviewOne p {
+    margin: 20px 30px;
+}
+
+section .review .reviewTwo {
+    width: 100%;
+    margin-right: 30px;
+    transform: translateX(-13px);
+    margin-top: 20px;
+}
+
+section .review .reviewTwo p {
+    margin: 20px 30px;
+}
+
+section .review .reviewThree {
+    width: 100%;
+    margin-right: 30px;
+    transform: translateX(-13px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section .review .reviewThree p {
+    margin: 20px 30px;
+}

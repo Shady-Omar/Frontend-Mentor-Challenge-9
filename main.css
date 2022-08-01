@@ -1,0 +1,256 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 0px;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: right 55vw bottom 50vh, left 48vw top 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    margin: 50px;
+}
+
+section .info {
+    display: flex;
+    flex-direction: row;
+}
+
+/* section .info .text {   
+} */
+
+section .info .text h1 {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    width: 50%;
+    margin: 0px;
+}
+
+section .info .text p {
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+    width: 44%;
+}
+
+section .info .rate {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 345px;
+}
+
+section .info .rate .rateOne {
+    position: absolute;
+    left: -90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: hsl(300, 24%, 96%);
+    padding: 0px 20px;
+    border-radius: 9px;
+}
+
+section .info .rate .rateOne p {
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+section .info .rate .rateTwo {
+    position: absolute;
+    left: -60%;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: hsl(300, 24%, 96%);
+    padding: 0px 20px;
+    border-radius: 9px;
+}
+
+section .info .rate .rateTwo p {
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    
+}
+
+section .info .rate .rateThree {
+    position: absolute;
+    left: -30%;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: hsl(300, 24%, 96%);
+    padding: 0px 20px;
+    border-radius: 9px;
+}
+
+section .info .rate .rateThree p {
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+section .info .rate #star {
+    margin-right: 7px;
+}
+
+section .review {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    position: relative;
+}
+
+section .review .reviewOne {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 9px;
+    color: hsl(300, 24%, 96%);
+    position: relative;
+    width: 90%;
+    margin-right: 30px;
+}
+
+section .review .reviewOne .profile {
+    margin: 20px;
+    display: flex;
+}
+
+section .review .reviewOne .profile img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+section .review .reviewOne .profile h4 {
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+}
+
+section .review .reviewOne .profile h4::after {
+    content: 'Verified Buyer';
+    position: absolute;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    left: 0;
+    font-size: 15px;
+    white-space: nowrap;
+    top: 20px;
+}
+
+section .review .reviewOne p {
+    margin: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 85%;
+    line-height: 1.5;
+}
+
+section .review .reviewTwo {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 9px;
+    color: hsl(300, 24%, 96%);
+    position: relative;
+    width: 90%;
+    margin-right: 30px;
+    transform: translateY(25px);
+}
+
+section .review .reviewTwo .profile {
+    margin: 20px;
+    display: flex;
+}
+
+section .review .reviewTwo .profile img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+section .review .reviewTwo .profile h4 {
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+}
+
+section .review .reviewTwo .profile h4::after {
+    content: 'Verified Buyer';
+    position: absolute;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    left: 0;
+    font-size: 15px;
+    white-space: nowrap;
+    top: 20px;
+}
+
+section .review .reviewTwo p {
+    margin: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 84%;
+    line-height: 1.5;
+}
+
+section .review .reviewThree {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 9px;
+    color: hsl(300, 24%, 96%);
+    position: relative;
+    width: 90%;
+    transform: translateY(50px);
+}
+
+section .review .reviewThree .profile {
+    margin: 20px;
+    display: flex;
+}
+
+section .review .reviewThree .profile img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+section .review .reviewThree .profile h4 {
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+}
+
+section .review .reviewThree .profile h4::after {
+    content: 'Verified Buyer';
+    position: absolute;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    left: 0;
+    font-size: 15px;
+    white-space: nowrap;
+    top: 20px;
+}
+
+section .review .reviewThree p {
+    margin: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 83%;
+    line-height: 1.5;
+}
