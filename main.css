@@ -16,6 +16,7 @@ body {
 
 section {
     margin: 50px;
+    max-width: 1110px;
 }
 
 section .info {
@@ -96,6 +97,7 @@ section .info .rate .rateThree {
     background: hsl(300, 24%, 96%);
     padding: 0px 20px;
     border-radius: 9px;
+    width: 22rem;
 }
 
 section .info .rate .rateThree p {

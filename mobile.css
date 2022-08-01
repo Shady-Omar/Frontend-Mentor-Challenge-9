@@ -21,6 +21,7 @@ section .info .text p {
 section .info .rate .rateOne {
     left: 0%;
     transform: translate(-25px, 25px);
+    
 }
 
 section .info .rate .rateTwo {
@@ -36,6 +37,7 @@ section .info .rate .rateTwo p {
 section .info .rate .rateThree {
     left: 0%;
     transform: translate(-25px, 195px);
+    width: 19rem;
 }
 
 section .review {
